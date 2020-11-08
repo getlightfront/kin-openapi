@@ -3,7 +3,7 @@ package openapi3
 import (
 	"testing"
 
-	"github.com/getkin/kin-openapi/jsoninfo"
+	"github.com/getlightfront/kin-openapi/jsoninfo"
 	"github.com/stretchr/testify/assert"
 )
 

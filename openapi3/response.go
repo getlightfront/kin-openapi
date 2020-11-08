@@ -5,7 +5,7 @@ import (
 	"errors"
 	"strconv"
 
-	"github.com/getkin/kin-openapi/jsoninfo"
+	"github.com/getlightfront/kin-openapi/jsoninfo"
 )
 
 // Responses is specified by OpenAPI/Swagger 3.0 standard.

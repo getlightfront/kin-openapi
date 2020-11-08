@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/getkin/kin-openapi/openapi3"
+	"github.com/getlightfront/kin-openapi/openapi3"
 	"github.com/stretchr/testify/require"
 )
 
