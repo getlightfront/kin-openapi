@@ -4,8 +4,10 @@ import (
 	"encoding/json"
 )
 
+var Flatten bool
+
 func MarshalRef(value string, otherwise interface{}) ([]byte, error) {
-	if len(value) > 0 {
+	if !Flatten && len(value) > 0 {
 		return json.Marshal(&refProps{
 			Ref: value,
 		})
